@@ -1,10 +1,9 @@
 /* SliderComponent.css */
 
-/* Define custom cursor with the provided image and apply a yellow filter */
+/* Define custom cursor with the provided image */
 .custom-cursor {
-  cursor: url("https://img.icons8.com/3d-fluency/94/cursor.png") 0 0, auto;
-  filter: invert(87%) sepia(100%) saturate(751%) hue-rotate(336deg)
-    brightness(92%) contrast(90%);
+  cursor: url("https://img.icons8.com/keek/100/000000/experimental-cursor-keek.png"),
+    auto;
 }
 
 /* Apply custom cursor when hovering over images */
@@ -13,5 +12,6 @@
 }
 
 .slick-slider img:hover {
-  cursor: url("https://img.icons8.com/3d-fluency/94/cursor.png") 0 0, auto;
+  cursor: url("https://img.icons8.com/keek/100/000000/experimental-cursor-keek.png"),
+    auto;
 }
