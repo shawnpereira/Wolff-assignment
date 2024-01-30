@@ -26,7 +26,7 @@ const Navbar = () => {
       <div
         className={`max-w-7xl mx-auto flex px-10 items-center ${
           scrolled
-            ? "justify-center space-x-28 rounded-full bg-gray-100 max-w-3xl p-2 z-50 transition-all duration-700"
+            ? "justify-center space-x-28 rounded-full bg-gray-100 max-w-3xl p-2 z-50 transition-all duration-700 bg-opacity-90"
             : "justify-between transition-all duration-700"
         }`}
       >

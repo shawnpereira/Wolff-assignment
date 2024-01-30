@@ -4,6 +4,8 @@ import Slider from "./Components/Slider";
 import Text from "./Components/Text";
 import Video from "./Components/Video";
 import SelectedWork from "./Components/SelectedWork";
+import FeaturedNews from "./Components/FeaturedNews";
+import BubbleButton from "./Components/BubbleButton";
 
 const App = () => {
   return (
@@ -27,6 +29,12 @@ const App = () => {
       </div>
       <div className="p-16">
         <SelectedWork />
+      </div>
+      <div className="p-16">
+        <FeaturedNews />
+      </div>
+      <div className="p-14">
+        <BubbleButton />
       </div>
     </div>
   );
