@@ -8,10 +8,10 @@ import SelectedWork from "./Components/SelectedWork";
 const App = () => {
   return (
     <div>
-      <div className="p-7  ">
+      <div className="p-10 sticky top-0  z-50 ">
         <Navbar />
       </div>
-      <div>
+      <div className="z-10">
         <Slider />
       </div>
 

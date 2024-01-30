@@ -7,7 +7,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       // Check if user has scrolled down
-      if (window.scrollY > 0) {
+      if (window.scrollY > 20) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -22,10 +22,12 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <nav className=" bg-white ">
+    <nav className="  ">
       <div
-        className={`max-w-7xl mx-auto flex justify-between items-center px-10 ${
-          scrolled ? "" : ""
+        className={`max-w-7xl mx-auto flex px-10 items-center ${
+          scrolled
+            ? "justify-center space-x-28 rounded-full bg-gray-100 max-w-3xl p-2 z-50 transition-all duration-700"
+            : "justify-between transition-all duration-700"
         }`}
       >
         <div className="flex items-center px-4">
