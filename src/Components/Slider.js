@@ -20,7 +20,7 @@ const SliderComponent = () => {
       {/* Container to hide overflow */}
       <Slider {...settings}>
         <div>
-          <img src="one.png" alt="Slide 1" className="w-full" />
+          <img src="mon.png" alt="Slide 1" className="w-full" />
           {/* Set image width to fill container */}
         </div>
         <div>

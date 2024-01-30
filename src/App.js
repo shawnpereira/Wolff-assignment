@@ -30,6 +30,10 @@ const App = () => {
       <div className="p-16">
         <SelectedWork />
       </div>
+      <div className="max-w-full  pb-12 lg:pb-0  pt-2 text-2xl leading-120 p-14 ">
+        <hr className="border-black py-1" />
+        <div> Featured News</div>
+      </div>
       <div className="p-16">
         <FeaturedNews />
       </div>
