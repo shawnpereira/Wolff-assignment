@@ -6,6 +6,7 @@ import Video from "./Components/Video";
 import SelectedWork from "./Components/SelectedWork";
 import FeaturedNews from "./Components/FeaturedNews";
 import BubbleButton from "./Components/BubbleButton";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -39,6 +40,9 @@ const App = () => {
       </div>
       <div className="p-14">
         <BubbleButton />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
